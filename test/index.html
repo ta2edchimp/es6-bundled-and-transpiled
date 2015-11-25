@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Test</title>
+</head>
+<body>
+<script type="text/javascript" src="../dist/bundle.js"></script>
+<script type="text/javascript">
+  var main = new MainClass({ my: 'options' });
+  main.doStuff();
+  var inh = new InheritedClass({ my: 'options' });
+  inh.doStuff({ one: '111111', two: [1, 2, 3, 4] });
+</script>
+</body>
+</html>

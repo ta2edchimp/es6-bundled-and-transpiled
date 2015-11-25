@@ -1,0 +1,22 @@
+{
+  "name": "es6-bundled-and-transpiled",
+  "version": "1.0.0",
+  "description": "Folder and configuration template for an ES6 multifile source being bundled and transpiled to ES5.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "eslint source",
+    "transpile": "webpack",
+    "build": "npm test && npm run transpile"
+  },
+  "author": "Andreas Windt <email@andreaswindt.com> (http://andreaswindt.com)",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "babel-core": "^6.2.1",
+    "babel-eslint": "^4.1.6",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.1.18",
+    "eslint": "^1.10.1",
+    "webpack": "^1.12.9"
+  }
+}

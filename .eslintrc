@@ -1,0 +1,15 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "rules": {
+      "eol-last": [2, "unix"],
+      "no-trailing-spaces": 2,
+      "indent": [2, 2],
+      "quotes": [2, "single"],
+      "linebreak-style": [2, "unix"],
+      "semi": [2, "always"]
+  }
+}
